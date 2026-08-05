@@ -11,7 +11,7 @@ wool:
       - "[ {loading, emoji} Forcing wool into the coin slot… ]"
       - "[ {loading, emoji} Loading up the slot machine… ]"
   buttons:
-    skip: Fast skip
+    skip: Skip
   errors:
     not_enough_wool: "[ You don't have enough wool to bet that amount. ]"
   slots:
