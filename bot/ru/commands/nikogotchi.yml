@@ -12,7 +12,7 @@ name:
   silver: Сильвер
   alula: Алула
   calamus: Каламус
-  magpie: Мэгпай
+  magpie: Мегпай
   lamplighter: Фонарщик
   ling: Линг
   kip: Кип
@@ -79,7 +79,7 @@ status:
   normal-rare: "🙂 Ждёте чего-то?"
   pet: "🥺 {name} хочет внимания!"
   dirty: "🛀 {name} хочет помыться!"
-  hungry: "{name} хочет кушать…"
+  hungry: "🥞 {name} хочет кушать…"
   treasure: "🎒 {name} ищет сокровища!"
   danger: "🚨 У {name} низкое здоровье! Используйте Золотые Блинчики, чтобы восстановить здоровье!"
 components:
@@ -96,7 +96,7 @@ components:
     no_food: "Еды нет... Вы можете купить её в магазине!"
     invalid: Вы не можете скормить это вашему Никоготчи! Пожалуйста, обновите кнопкой {refresh, emoji}!
 died:
-  title: "{name} ушёл из жизни…"
+  title: "🪦{name} ушёл из жизни…"
   description: >
     Жизнь {name} продлилась {age}..
 
