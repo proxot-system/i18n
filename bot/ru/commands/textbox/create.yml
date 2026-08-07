@@ -91,3 +91,38 @@ facepic_picker:
 
     {credits, notempty, '**Заслуга:** {credits}'}
     -# Выбирается для кадра #{frame_index}
+_metadata:
+  name: создать
+  description: Создать текстбокс или GIF диалог между персонажами (например, как в OneShot)
+loading: '[ {loading, emoji} Загрузка редактора ]'
+options:
+  text:
+    name: текст
+    description: Что вы хотите что бы персонаж сказал?
+  facepic:
+    name: лицо
+    description: Какое лицо вы хотите на текстбоксе? (вернитесь назад в этой опции чтобы продолжить искать)
+  animated:
+    name: анимированное
+  force_send:
+    name: принуд_отправка
+    description: 'Для того, что бы отправлять текстбоксы с настройкой «отправить_к» (по умолчанию: выкл)'
+  filetype:
+    name: тип
+    description: Какой тип файлов хотите что бы вышел?
+    choices:
+      WEBP: WEBP (по умолчанию)
+      GIF: GIF
+      APNG: APNG
+      PNG: PNG
+      JPEG: JPEG
+  send_to:
+    name: отправить_к
+    description: Где вы хотите отправить итог? (пропустите все настройки чтобы запустить рендер/отправку сейчас же)
+    choices:
+      1: Не (по умолчанию)
+      2: ЛС
+      3: В этом канале (тут)
+  from_tbb_file:
+    name: из_tbb_файла
+    description: Загрузите здесь файл (.tbb) чтобы загрузить из него текстбокс-диалог (сбрасывает все опции)
