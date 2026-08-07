@@ -4,7 +4,7 @@ _metadata:
 balance:
   you:
     none: "[ У вас нет **{wool, emoji}Шерсти** ]"
-    some: "[ У вас есть **{balance}**{wool, emoji} ]"
+    some: "[ У вас есть **{balance, pretty_num}**{wool, emoji} ]"
   other:
     none: "[ У **{account_holder_id, user, mention}** нет **{wool, emoji}Шерсти** ]"
     some: "[ У **{account_holder_id, user, mention}** есть **{balance, pretty_num}**{wool, emoji} ]"
@@ -40,9 +40,9 @@ pray:
     misdeed: "...но они видели ваш проступок на днях."
     unhappy: "...но они не довольны сегодня вами."
     despise: "…и они вас сегодня презирают… Не хорошо…"
-    ogie: "…и они видят что у вас всё в порядке."
-    yippie: "…и сегодня они вами довольны! Да будет хвала Мировой Машине!"
-    devoted: "…и они видят, что вы истинный последователь. Да будет хвала Мировой Машине!"
+    ogie: "…и они видят, что у вас всё в порядке."
+    yippie: "…и сегодня они вами довольны! Хвала Мировой Машине!"
+    devoted: "…и они видят, что вы — истинный последователь. Хвала Мировой Машине!"
   title: "Вы помолились Мировой Машине…"
   Change:
     gain: "вы также получили {wool, emoji}**{amount, pretty_num}** шерсти!"
