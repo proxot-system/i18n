@@ -6,3 +6,7 @@ options:
 items:
   treasures: {}
   pancakes: {}
+_metadata:
+  name: инвентарь
+  description: Команды, относящиеся к инвентарю игрока
+item_entry_template: '**`{spacer}{amount, pretty_num}`** {icon} {name}'
