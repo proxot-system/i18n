@@ -3,6 +3,7 @@ commands:
     _metadata:
       name: random_wikipedia
       description: Случайная статья из Википедии
+    template: '[ [Вот]({link}) твоя случайная статья из википедии. Она про {title}... Полагаю... ]'
   cat:
     miaou:
       title: "Вы нашли…"
