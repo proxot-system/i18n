@@ -1,2 +1,66 @@
-treasure: {}
-pancake: {}
+treasure:
+  amber:
+    name: Светящийся Янтарь
+    description: На нём трёхлепестковый клевер.
+  bottle:
+    name: Бутылка со Спиртом
+    description: Бутылка алкоголя. Идеален для приготовления коктейлей Молотова.
+  card:
+    name: «Настоящая» Библиотечная Карточка
+    description: На нём приклеено фото Нико.
+  clover:
+    name: Святящийся Клевер
+    description: Просто светящийся клевер.
+  die:
+    name: Светящаяся Игральная Кость
+    description: Костяшка со светящимися точками.
+  journal:
+    name: Таинственный Журнал
+    description: Он написан на непонятном языке.
+  pen:
+    name: Светящееся Перо
+    description: Длинное и тонкое перо со светящимися концами.
+  shirt:
+    name: Сувенирная Футболка
+    description: «Я пас баранов, и всё, что я получил — эта паршивая футболка!»
+  sun:
+    name: Солнце
+    description: Большая лампочка. Это — солнце.
+pancake:
+  normal:
+    name: Блины
+    description: |-
+      Базовый минимум кормления Никоготчи.
+      *+25 🥞*
+      *+1 ❤️*
+  golden:
+    name: Золотые блины
+    description: |-
+      Дорогие, но того стоящие.
+      *ПОЛН. 🥞*
+      *+25 ❤️*
+  glitched:
+    name: ???
+    description: |-
+      Я даже предположить не могу как они тут оказались.
+      *ПОЛН.🥞*
+      *ПОЛН. ❤️*
+capsule:
+  blue: Капсула Пустошь
+  green: Капсула Долины
+  red: Капсула Пристанища
+  yellow: Капсула Солнцестояния
+background:
+  Alula and Calamus: Алула и Каламус
+  Barrens: Пустоши
+  Glens: Долина
+  Refuge: Пристанище
+  Pancakes: Блинчики
+  Magpie: Мегпай
+  Catwalk: Узкий проход
+  Ruins: Руины
+  Factory: Фабрика
+  Lamplighter: Фонарщик
+  Library: Библиотека
+  The World Machine: Мировая Машина
+  The Author: Автор
