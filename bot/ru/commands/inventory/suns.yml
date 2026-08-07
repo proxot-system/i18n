@@ -1,3 +1,21 @@
 explode:
   dialogue:
-    why: []
+    why:
+    - '[ Зачем? ]'
+    - '[ Каждый раз, как кто-то это делает, мне приходится подметать. ]'
+    - '[ Ого... Правда что ли? ]'
+    - '[  ]'
+    sixninefourtwo: чётко 👍
+  _metadata:
+    name: взорвать
+    description: 💥💥💥💥💥💥💥💥💥
+_metadata:
+  name: солнце
+  description: Всё, что относится к Солнцам
+give:
+  _metadata:
+    name: дать
+    description: Дать кому-нибудь солнце!
+  cooldown: '[ Они уже сегодня получали солнце от кого-то! Вы сможете дать своё через {unable_until, time, relative} ]'
+  self: '[ {doer, user, mention} выдаёт сальто с солнцем {sun, emoji} в руках! ]'
+  message: '[ {giver, user, mention} даёт {receiver, user, mention} солнце!! ]'
