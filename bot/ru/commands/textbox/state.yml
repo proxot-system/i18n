@@ -1,0 +1,15 @@
+_metadata:
+  name: состояние
+  description: Команды отладки для текстбоксов (только разработчикам)
+options:
+  search:
+    name: поиск
+    description: 'sid сюда, эксклюзивно: `all` все состояния, `user:userid/"me"` состояния пользователя. в конце: `!Page:Amount` (целочисленные)'
+errors:
+  invalid_user_id: Неверное ID пользователя
+  not_found: Не удалось найти SID {sid}
+  invalid_paging: Неверный синтаксис пагинации (постраничной разбивки)
+  out_of_bounds: 'Страница за всеми рамками, макс. предметы: {max}'
+  nothing_found_empty: Ничего не найдено (нет состояний)
+  nothing_found_filter: Ничего не найдено (проверьте свой фильтр?)
+results: 'Найдено: {count}'
