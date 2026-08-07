@@ -1,6 +1,6 @@
 _metadata:
-  name: shop
-  description: Открыть лавку Мэгпая
+  name: магазин
+  description: Открыть лавку Мегпая
 loading: "[ {loading, emoji} Загрузка Магазина... ]"
 user_wool: "-# текущий баланс: **{wool, emoji}{wool, pretty_num}**"
 buttons:
