@@ -8,7 +8,7 @@ description: |-
 
   {user_wool}
 result:
-  message: |-
+  message: |
     > Вы дали Мэгпаю {amount, plural, 
      one {# шерсть}
      few {# шерсти}
