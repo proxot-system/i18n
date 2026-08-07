@@ -1,5 +1,5 @@
 _metadata:
-  name: transmit
-  description: Transmit to other servers!
+  name: соединиться
+  description: Соединиться с другими серверами!
 autocomplete:
   unknown_server: "Неизвестный ({server_id})"
