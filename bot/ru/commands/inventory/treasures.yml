@@ -7,6 +7,7 @@ minis:
     public: "вы можете использовать {/inventory/treasures} с аргументом «public: True» чтобы показать свои сокровища в чате!"
 loading: "[ {loading, emoji} Загрузка {target_type, select, current {ваших} other {чужих}} сокровищ... ]"
 empty: "[ У {user_id, user, mention} нет ни одного сокровища ]"
-message: |
+message: |-
   ### сокровища {user}
+
   {treasures}
