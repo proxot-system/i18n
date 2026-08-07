@@ -5,3 +5,36 @@ wool:
   _metadata:
     name: шерсть
     description: Сливай свою шерсть слотами. Точно не схема Мегпая
+  loading:
+    slots:
+    - '[ {loading, emoji} Mегпай точно не подстраивает машину… ]'
+    - '[ {loading, emoji} Пихаем шерсть в отверстие для монет… ]'
+    - '[ {loading, emoji} Загружаем слот-машину… ]'
+  buttons:
+    skip: Пропуск
+  errors:
+    not_enough_wool: '[ У вас не хватает шерсти чтобы сделать такую ставку. ]'
+  slots:
+    title: 🎰Слот Машина
+    description_running: |
+      {bettor_id, user, mention} ставит {wool, emoji}**{bet_amount, pretty_num}**.
+      {ticker}
+    description_result: |
+      {bettor_id, user, mention} ставит {wool, emoji}**{bet_amount, pretty_num}**.
+      {ticker}
+      -# {result, select,
+        jackpot {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
+        won_some {{bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
+        lost_some {{bettor_id, user, mention} возвращает только {win_amount, pretty_num} шерсти…}
+        lost_all {{bettor_id, user, mention} всё сливает… потом точно повезёт!}
+        pain {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} всё сливает! Удачи в следующий раз!}
+        other {{bettor_id, user, mention} обманывает машину!}
+      }
+    guide:
+      description: |
+        Делай любую ставку, которая будет по карману.
+        Здесь описаны слоты и их значения:
+        {slot_values}
+        Очки складываются и умножаются на ставку.
+        Также выигрыш удваивается при джекпоте.
+      value_entry: '- {icon} **{value, plural, one {# очко} other {# очки}}{value_sign, select, negative { reduction} positive {}}**'
