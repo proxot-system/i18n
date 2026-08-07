@@ -25,6 +25,8 @@ generic:
     top: "В Самый Верх"
     down: "Вниз"
     bottom: "В Самый Низ"
+    accept: Принять
+    decline: Отклонить
   minis:
     note: "❕ заметка:"
     tip: "❔ совет:"
