@@ -26,6 +26,11 @@ welcome:
       Предыдущий: {old_text}
 
       Новый (current): {new_text}
+    templates:
+      default: |-
+        [ Добро пожаловать \c[#c386ff]{user_name}\c на \c[#c386ff]{server_name}\c! Теперь здесь {member_count, plural,
+            one {# участник}
+            other {# участников}}. ]
 transmissions:
   enabled:
     "true": "[ Теперь сервер принимает межсерверные звонки ]"
