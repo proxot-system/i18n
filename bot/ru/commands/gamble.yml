@@ -1,1 +1,7 @@
-{}
+_metadata:
+  name: казино
+  description: Команды, относящиеся к казино
+wool:
+  _metadata:
+    name: шерсть
+    description: Сливай свою шерсть слотами. Точно не схема Мегпая
