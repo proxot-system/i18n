@@ -1,0 +1,6 @@
+_metadata:
+  name: текстбокс
+  description: Команды, относящиеся к текстбоксам
+context_menus:
+  message_to_textbox: 📓сообщение в текстбокс
+  avatar_as_facepic: 📓аватар в текстбокс-лицо
