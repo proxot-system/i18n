@@ -1,15 +1,15 @@
 _metadata:
-  name: interact
-  description: Interact with others in various ways (sends a message in chat)
+  name: взаимодействие
+  description: Взаимодействуйте с окружающими разными способами (в чат отправляется сообщение)
 options:
   with:
-    name: with
-    description: The interactee (can be @, won't ping everyone/here/roles though)
+    name: с
+    description: Цель (может быть @, но не пингует everyone/here/роли и т.д.)
   user_one:
-    name: user_one
-    description: Optional replacement for the first user (same as interactee, but message won't ping anyone)
+    name: первый
+    description: Опциональная замена первого пользователя (как и цель, но без пинга)
 
-twm_not_being_very_happy: "[ {user_id, user, mention}, не трогай меня. ]"
+twm_not_being_very_happy: "[ Не трогай меня, {user_id, user, mention}. ]"
 twm_questioning_if_youre_stupid_or_not: "[ {user_id, user, mention}, вы *не совсем* можете взаимодействовать с ботами. ]"
 twm_is_fed_up_with_you: "[ *вздох* Ты не можешь взаимодействовать с собой, {user_id, user, mention}. ]"
 
