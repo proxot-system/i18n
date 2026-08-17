@@ -14,7 +14,7 @@ options:
     # weblate-flags: max-length:32
     name: facepic
     # weblate-flags: max-length:100
-    description: Which facepic do you want on the textbox? (go back to this option to continue serching)
+    description: Which facepic do you want on the textbox? (go back to this option to continue searching)
   animated:
     # weblate-flags: max-length:32
     name: animated
